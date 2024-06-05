@@ -11,7 +11,7 @@ const Home = () => {
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex pt-10 md:pt-0 flex-col justify-center h-full">
-          <h2 className="text-1xl sm:text-5xl font-bold text-white tracking-widest	">
+          <h2 className="text-1xl sm:text-5xl font-bold text-blue-400 tracking-widest	">
             Hi, I'm<br/>
             <span>
               <strong className="text-7xl">Bharti Negi </strong>
@@ -19,11 +19,7 @@ const Home = () => {
               <span className="text-3xl">Web Developer</span>
  
           </h2>
-          {/* <p className="text-gray-500 text-md py-4 max-w-md">
-            "Hi, I'm 
-            Bharti Negi
-            Web Developer"
-          </p> */}
+          
           <div>
             <Link
               to="portfolio"

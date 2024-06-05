@@ -3,7 +3,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
 
 const NavBar = () => {
-  const links = ["home", "about", "porjects", "skills", "contact"];
+  const links = ["home", "about", "projects", "skills", "contact"];
   const [nav, setNav] = useState(false);
   return (
     <div className="flex justify-between items-center w-full px-4 h-20 bg-black text-white fixed">

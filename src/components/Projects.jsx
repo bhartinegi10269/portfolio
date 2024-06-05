@@ -1,22 +1,20 @@
 import React from "react";
 import flashcard from "../assets/projects/flashcard.gif";
-import InteractiveRating from "../assets/projects/InteractiveRating.png";
 import SignupForm from "../assets/projects/SignupForm.png";
-import ProductPreviewCard from "../assets/projects/ProductPreviewCard.png";
-import QRCode from "../assets/projects/QRCode.png";
+import Quiz from "../assets/projects/quiz.png";
+import Calculator from "../assets/projects/calculator.png";
 
 const Projects = () => {
   const projects = [
     flashcard,
-    InteractiveRating,
     SignupForm,
-    QRCode,
-    ProductPreviewCard,
+    Quiz,
+    Calculator,
   ];
   return (
     <div
       name="porjects"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-blue-300 md:h-screen pb-5"
+      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen pb-5"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">

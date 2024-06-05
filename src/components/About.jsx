@@ -4,15 +4,15 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
+      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-3/4 h-70vh">
         <div className="pb-8">
-          <p className="text-4xl font-bold flex justify-center">
+          <p className="text-6xl font-bold flex justify-center text-white">
             ABOUT ME
           </p>
         </div>
-        <p className="text-md md:text-xl mt-10 md:mt-1 text-justify  ">
+        <p className="text-md md:text-xl mt-10 md:mt-1 text-justify  text-white">
           Web Developer with expertise of React.js, Redux, HTML
           and CSS. currently learning React Native for Mobile Application.
           <br />

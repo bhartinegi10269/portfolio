@@ -3,19 +3,18 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-screen bg-gradient-to-b from-black to-gray-800 text-white"
+      className="w-full  bg-gradient-to-b from-black to-gray-800 text-white"
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+          <p className="text-5xl font-bold flex justify-center">
             Contact
           </p>
-          <p className="py-6">Submit the form below to get in touch with me</p>
+          <p className="py-6 flex justify-center">Submit the form below to get in touch with me</p>
         </div>
         <div className="flex justify-center items-center">
           <form
-            // action="https://getform.io/f/d1666d4e-90e7-4134-9c64-a0087f484d8c"
-            // method="POST"
+            
             className="flex flex-col w-full md:w-1/2"
           >
             <input
