@@ -24,8 +24,8 @@ export default function AboutUs() {
           developer with a strong foundation in creating responsive,
           user-friendly websites and web applications. Although I’m just
           starting my journey in the tech industry, I have gained hands-on
-          experience through various personal projects and self-learning. <br />
-          <br />
+          experience through various personal projects and self-learning.
+          <br/><br />
           With a solid understanding of HTML, CSS, JavaScript, and frameworks
           like Tailwind CSS and React.js, I am committed to delivering clean,
           efficient code that enhances user experience. My focus is on writing

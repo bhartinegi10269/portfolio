@@ -7,7 +7,7 @@ export default function Menu() {
       <div className="container-fluid">
         <a
           className="navbar-brand hover-i"
-          href=""
+          href="https://portfolio-three-vert-93.vercel.app/"
         >
         BhartiPortfolio
         </a>
@@ -32,7 +32,7 @@ export default function Menu() {
                 offset={-70}
                 duration={100}
                 className="nav-link"
-              >
+              > 
                 Project
               </Link>
             </li>
